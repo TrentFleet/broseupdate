@@ -11,19 +11,42 @@ const Footer = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 1 }}
-      className="w-full bg-custom-pink text-color text-md mb-10 p-4 mt-10"
+      className="w-full text-color text-xs mb-10 mt-10"
       style={{ scale }}
     >
-      <div className="flex justify-evenly space-x-2 w-3/4 text-xs mx-auto ">
-        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><Video /></button>
-        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><Instagram /></button>
-        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><FacebookIcon /></button>
-      
-        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><WineIcon /></button>
+      <div className="flex justify-evenly space-x-2 text-xs mx-auto ">
+        <motion.button 
+          animate={{ y: ["0%", "10%", "0%"] }} 
+          transition={{ repeat: Infinity, duration: 3 }}
+          className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"
+        >
+          <Video />
+        </motion.button>
+        <motion.button 
+          animate={{ y: ["0%", "10%", "0%"] }} 
+          transition={{ repeat: Infinity, duration: 3 }}
+          className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"
+        >
+          <Instagram />
+        </motion.button>
+        <motion.button 
+          animate={{ y: ["0%", "10%", "0%"] }} 
+          transition={{ repeat: Infinity, duration: 3 }}
+          className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"
+        >
+          <FacebookIcon />
+        </motion.button>
+        <motion.button 
+          animate={{ y: ["0%", "10%", "0%"] }} 
+          transition={{ repeat: Infinity, duration: 3 }}
+          className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"
+        >
+          <WineIcon />
+        </motion.button>
       </div>
       <div className="flex justify-center mt-10 text-xs">
         <p className="text-xs">&copy; {new Date().getFullYear()} Brose. All rights reserved.</p>
-        </div>
+      </div>
     </motion.footer>
   );
 }
