@@ -15,9 +15,9 @@ const wine = () => {
         className="relative p-2 border-4 border-white rounded-xl bg-gray-50"
         style={{ scale }}
       >
-        <Image src="/images/wine.png" alt="wine" width={400} height={850} />
+        <Image src="/images/wine.png" className="xl:max-w-60" alt="wine" width={400} height={650} />
         <div className="absolute bottom-0 left-0">
-          <button className="font-Badger">Try Now</button>
+          <button className="font-Badger">Buy Now</button>
         </div>
       </motion.div>
     </div>

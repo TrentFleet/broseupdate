@@ -14,7 +14,7 @@ const Footer = () => {
       className="w-full text-color text-xs mb-10 mt-10"
       style={{ scale }}
     >
-      <div className="flex justify-evenly space-x-2 text-xs mx-auto ">
+      <div className="flex xl:w-60 mt-10 justify-between space-x-2 text-xs mx-auto ">
         <motion.button 
           animate={{ y: ["0%", "10%", "0%"] }} 
           transition={{ repeat: Infinity, duration: 3 }}
