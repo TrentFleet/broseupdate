@@ -18,6 +18,7 @@ const Footer = () => {
         <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><Video /></button>
         <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><Instagram /></button>
         <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><FacebookIcon /></button>
+      
         <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><WineIcon /></button>
       </div>
       <div className="flex justify-center mt-10 text-xs">
