@@ -12,7 +12,7 @@ function Navbar() {
       </Link>
 
       <Image src="/1.svg" width={30} height={30} alt={""} />
-      <button className="text-sm text-gray-700 border-2 border-gray-700 rounded-xl p-2 hover:bg-gray-700 hover:text-pink-200 font-Badger font-semibold">
+      <button className="text-xs text-gray-700 border-2 border-gray-700 rounded-xl p-1 hover:bg-gray-700 hover:text-pink-200 font-Badger font-semibold">
         Contact Us
       </button>
     </div>
