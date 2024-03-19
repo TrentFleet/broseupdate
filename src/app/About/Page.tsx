@@ -8,7 +8,7 @@ const AboutUs = () => {
   const images = ["/images/image4.jpg", "/images/image3.jpg", "/images/image2.jpg", "/images/image1.jpg"]; // replace with your images
 
   return (
-    <div className="flex flex-col items-center mt-10">
+    <div className="flex flex-col items-center mt-40">
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
