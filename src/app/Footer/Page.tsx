@@ -15,14 +15,14 @@ const Footer = () => {
       style={{ scale }}
     >
       <div className="flex justify-evenly space-x-2 w-3/4 text-xs mx-auto ">
-        <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><Video /></button>
-        <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><Instagram /></button>
-        <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><FacebookIcon /></button>
+        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><Video /></button>
+        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><Instagram /></button>
+        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><FacebookIcon /></button>
       
-        <button className="hover:bg-gray-600 rounded-lg hover:bg-opacity-10"><WineIcon /></button>
+        <button className="hover:text-white rounded-lg ease-in hover:bg-opacity-10"><WineIcon /></button>
       </div>
       <div className="flex justify-center mt-10 text-xs">
-        <p>&copy; {new Date().getFullYear()} Brose. All rights reserved.</p>
+        <p className="text-xs">&copy; {new Date().getFullYear()} Brose. All rights reserved.</p>
         </div>
     </motion.footer>
   );
