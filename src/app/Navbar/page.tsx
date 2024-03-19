@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <div className="flex justify-between font-Badger my-4 space-x-10">
+    <div className="flex justify-evenly font-Badger my-4 space-x-16">
       <Link href="/" className="text-md text-gray-700 hover:text-pink-200">
         <MenuIcon size={36} />
       </Link>
