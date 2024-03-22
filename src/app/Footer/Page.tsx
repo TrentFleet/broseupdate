@@ -50,7 +50,7 @@ const Footer = () => {
           </motion.button>
         </div>
 
-        <AuroraBackground className="h-1/2 p-2 mt-10 rounded-md">
+        <AuroraBackground className="h-1/2 mx-auto w-full p-2 mt-10 rounded-md">
           <div className="flex justify-center text-xs">
             <p className="text-xs">
               &copy; {new Date().getFullYear()} Brose. All rights reserved.
