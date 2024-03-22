@@ -3,24 +3,24 @@
 @tailwind utilities;
 
 .bg-custom-pink {
-    background-color: #eeb1b9;
-}
-
-.pink-c {
   background-color: #eeb1b9;
 }
 
 .text-color {
-    color: #3d3b56;
+  color: #3d3b56;
+}
+
+.encode-sans-sc {
+  font-family: 'Encode Sans SC', sans-serif;
 }
 
 @font-face {
-    font-family: 'Badger';
-    src: url('/fonts/Badger.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Badger";
+  src: url("/fonts/Badger.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  .font-Badger {
-    font-family: 'Badger', sans-serif;
-  }
+.font-Badger {
+  font-family: "Badger", sans-serif;
+}
