@@ -19,8 +19,8 @@ export const TextGenerateEffect = ({
         opacity: 1,
       },
       {
-        duration: 2,
-        delay: stagger(0.15),
+        duration: 1,
+        delay: stagger(0.1),
       }
     );
   }, [scope.current]);
@@ -34,8 +34,8 @@ export const TextGenerateEffect = ({
               key={word + idx}
               className={
                 word === "Brose" || word === "statement"
-                  ? "text-white text-7xl font-Badger"
-                  : "dark:text-white text-color"
+                  ? "text-white text-7xl font-Badger opacity-0"
+                  : "dark:text-white text-color opacity-0"
               }
             >
               {word}{" "}
