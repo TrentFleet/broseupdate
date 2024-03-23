@@ -28,6 +28,7 @@ const Hero = () => {
     }
   }}
 >
+  
   <motion.p variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam minus quo, 
   </motion.p>
