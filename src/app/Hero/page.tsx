@@ -29,7 +29,7 @@ const Hero = () => {
   }}
 >
   <motion.p variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam minus quo, consequatur placeat praesentium facilis excepturi odit molestiae repellendus hic autem odio, nostrum ad eaque beatae eos quia velit explicabo!
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam minus quo, 
   </motion.p>
   <motion.p variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
     Dolorum quibusdam soluta exercitationem? Nobis quaerat culpa qui repudiandae? Dicta incidunt eius voluptates expedita saepe eaque voluptatem facilis maxime ab minus dolorem?

@@ -9,7 +9,7 @@ const Footer = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1.1, 1.2]);
 
   return (
-    <><div className="relative flex justify-center mt-60 items-center p-4">
+    <><div className="relative flex justify-center mt-40 items-center p-4">
       <motion.div
         className="absolute opacity-90 mx-auto w-full h-full z-20"
         style={{
@@ -76,7 +76,7 @@ Brose Winery, nestled in Auckland, New Zealand, meticulously crafts unique blend
           </motion.button>
         </div>
 
-        <AuroraBackground className="h-1/2 mx-auto w-full p-2 mt-10 rounded-md">
+        <AuroraBackground className="h-1/2 mx-auto w-full p-2 my-10 rounded-md">
           <div className="flex justify-center text-xs">
             <p className="text-xs">
               &copy; {new Date().getFullYear()} Brose. All rights reserved.
