@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 const words = `I am a statement a
 lifestyle, and a
 delicious rebellion
-all bundled up in one sip. Brose those who dared to break free.
+all bundled up in one sip. Brose those who dare to be different.
 `;
 
 

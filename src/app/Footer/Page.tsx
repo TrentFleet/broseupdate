@@ -9,7 +9,7 @@ const Footer = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1.1, 1.2]);
 
   return (
-    <><div className="relative flex justify-center mt-40 items-center p-4">
+    <><div className="relative w-full h-full flex justify-center mt-40 items-center p-4">
       <motion.div
         className="absolute opacity-90 mx-auto w-full h-full z-20"
         style={{
@@ -32,10 +32,10 @@ const Footer = () => {
           }
         }}
       >
-        <motion.p variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }} className="z-1 relative">
+        <motion.p variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }} className="z-10 relative">
 Brose Winery, nestled in Auckland, New Zealand, meticulously crafts unique blends reflecting the region's terroir, offering a taste of tradition and innovation in every bottle.</motion.p>
-<button className="px-8 py-2  bg-gray-600 text-white text-sm rounded-lg mt-4  hover:bg-gray-800/[0.8] hover:shadow-lg">
-  Learn More
+<button className="px-8 py-2  bg-gray-600 text-white text-sm rounded-lg mt-6  hover:bg-gray-800/[0.8] hover:shadow-lg">
+  Our story
   </button>
       </motion.div>
     </div><motion.footer
@@ -76,13 +76,13 @@ Brose Winery, nestled in Auckland, New Zealand, meticulously crafts unique blend
           </motion.button>
         </div>
 
-        <AuroraBackground className="h-1/2 mx-auto w-full p-2 my-10 rounded-md">
-          <div className="flex justify-center text-xs">
-            <p className="text-xs">
+        <div className="mx-auto w-full  my-10 rounded-xl">
+          <div className="flex justify-center w-full h-full text-xs">
+            <p className="text-sm">
               &copy; {new Date().getFullYear()} Brose. All rights reserved.
             </p>
           </div>
-        </AuroraBackground>
+          </div>
       </motion.footer></>
     
   );
