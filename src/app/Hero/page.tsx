@@ -14,7 +14,7 @@ const Hero = () => {
     <div>
   <TextGenerateEffect words={words} />
   <motion.div
-  className="mt-4 text-gray-900 text-xl"
+  className="mt-4 text-gray-700 text-xl"
   initial="hidden"
   animate="visible"
   variants={{

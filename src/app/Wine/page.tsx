@@ -10,7 +10,7 @@ const wine = () => {
   return (
     <div className="relative flex justify-center mt-10 items-center p-4">
       <motion.div 
-        className="absolute mx-auto w-full h-full z-10" 
+        className="absolute opacity-80 mx-auto w-full h-full z-10" 
         style={{ 
           backgroundImage: `url(/images/finalshape.svg)`, 
           backgroundSize: 'cover', 
