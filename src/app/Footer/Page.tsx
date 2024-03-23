@@ -76,9 +76,9 @@ Brose Winery, nestled in Auckland, New Zealand, meticulously crafts unique blend
           </motion.button>
         </div>
 
-        <div className="mx-auto w-full  my-10 rounded-xl">
+        <div className="mx-auto w-full h-1/2  my-10 rounded-xl">
           <div className="flex justify-center w-full h-full text-xs">
-            <p className="text-sm">
+            <p className="text-xs">
               &copy; {new Date().getFullYear()} Brose. All rights reserved.
             </p>
           </div>
